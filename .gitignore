@@ -1,0 +1,4 @@
+# Node and editor
+node_modules/
+.vscode/
+.DS_Store
