@@ -18,25 +18,27 @@
 </head>
 
 <body>
-
-  <!-- Header -->
+<!-- Header -->
   <header class="site-header">
-
     <div class="header-inner">
-
-      <a class="brand" href="index.html">
+      <!-- Logo -->
+      <div class="brand">
         <img src="assets/images/logo/logo-secondary.png" alt="PeacemakerDev Logo" width="120" height="40" />
-      </a>
+      </div>
 
-      <nav class="site-nav">
+      <!-- Navigation -->
+      <nav class="site-nav" id="site-nav">
         <a href="index.html">Home</a>
-        <a href="projects.html">Work</a>
+        <a href="#projects">Work</a>
         <a href="services.html">Services</a>
-        <a class="header-cta" href="contact.html">Work With Me</a>
+        <a class="header-cta" href="#contact">Work with Me</a>
       </nav>
 
+      <!-- Mobile Menu Button -->
+      <button class="menu-toggle" id="menuToggle">
+        <img src="assets/images/icons/icons8-menu-94.png" alt="Menu" width="26">
+      </button>
     </div>
-
   </header>
 
 
@@ -270,9 +272,8 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
+  <script src="js/nav.js"></script><!-- Navigation Script and Update year -->
+  <script src="js/main.js"></script><!-- Main Script -->
 
 </body>
 

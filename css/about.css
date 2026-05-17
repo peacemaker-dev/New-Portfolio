@@ -284,6 +284,12 @@
   line-height: 1.4;
 }
 
+@media (max-width: 900px) {
+  .growth-strip {
+    display: flex;
+    flex-direction: column; 
+  }
+}
 /*================ Beyond Development Section ================*/
 .beyond-section {
   padding: 2.5rem 0;
